@@ -14,6 +14,11 @@ namespace FinanceCalculator.ViewModels
             ShowHomeViewModel();
         }
 
+
+
+        /*
+            Set ActiveItem on xaml to desired view model 
+        */
         public void ShowHomeViewModel()
         {
             ActivateItem(new HomeViewModel());
@@ -21,7 +26,7 @@ namespace FinanceCalculator.ViewModels
 
         public void ShowAutoViewModel()
         {
-            ActivateItem(new AutoLoanViewModel());
+            ActivateItem(new AutoViewModel());
         }
     }
 }

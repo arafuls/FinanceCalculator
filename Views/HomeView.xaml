@@ -6,8 +6,9 @@
              xmlns:local="clr-namespace:FinanceCalculator.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
-             Background="Orange">
+             Background="Green">
     <Grid>
-            
+        
     </Grid>
+    
 </UserControl>

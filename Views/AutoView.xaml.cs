@@ -18,9 +18,9 @@ namespace FinanceCalculator.Views
     /// <summary>
     /// Interaction logic for AutoLoanView.xaml
     /// </summary>
-    public partial class AutoLoanView : UserControl
+    public partial class AutoView : UserControl
     {
-        public AutoLoanView()
+        public AutoView()
         {
             InitializeComponent();
         }
