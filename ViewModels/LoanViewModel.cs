@@ -7,7 +7,11 @@ using System.Threading.Tasks;
 
 namespace FinanceCalculator.ViewModels
 {
-    class LoanViewModel : Screen
+    public class LoanViewModel : Conductor<object>
     {
+        public void ShowFixedTermViewModel()
+        {
+            ActivateItem(new FixedTermViewModel());
+        }
     }
 }

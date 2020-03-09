@@ -23,9 +23,12 @@
         <!-- Side Bar -->
         <DockPanel Grid.Row="0" Grid.Column="0" Grid.RowSpan="4" Background="#FF9B9B9B">
             <StackPanel>
-                <Button IsEnabled="True" Margin="10 10 10 2 " Content="Fixed Term"/>
+                <Button IsEnabled="True" Margin="10 10 10 2 " Content="Fixed Term" x:Name="ShowFixedTermViewModel"/>
                 <Button IsEnabled="False" Margin="10 2  10 2 " Content="Fixed Payments"/>
             </StackPanel>
         </DockPanel>
+        
+        <!-- Active View -->
+        <ContentControl Grid.Row="0" Grid.Column="1" Grid.RowSpan="4" Grid.ColumnSpan="5" x:Name="ActiveItem"/>
     </Grid>
 </UserControl>
