@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FinanceCalculator.ViewModels
 {
-    class AutoViewModel : Screen
+    class LoanViewModel : Screen
     {
     }
 }

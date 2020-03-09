@@ -74,14 +74,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ViewModels\AutoViewModel.cs" />
+    <Compile Include="ViewModels\LoanViewModel.cs" />
     <Compile Include="ViewModels\HomeViewModel.cs" />
     <Compile Include="Views\HomeView.xaml.cs">
       <DependentUpon>HomeView.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\ShellViewModel.cs" />
-    <Compile Include="Views\AutoView.xaml.cs">
-      <DependentUpon>AutoView.xaml</DependentUpon>
+    <Compile Include="Views\LoanView.xaml.cs">
+      <DependentUpon>LoanView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ShellView.xaml.cs">
       <DependentUpon>ShellView.xaml</DependentUpon>
@@ -95,7 +95,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\AutoView.xaml">
+    <Page Include="Views\LoanView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

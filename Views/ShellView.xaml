@@ -25,13 +25,8 @@
         <!-- Side Bar -->
         <DockPanel Grid.Row="0" Grid.Column="0" Grid.RowSpan="4" Background="Gray">
             <StackPanel>
-                <Button IsEnabled="True " Margin="10 10 10 10" Content="Home" x:Name="ShowHomeViewModel"/>
-                <Button IsEnabled="False" Margin="10 2  10 2 " Content="Mortgage and RE"/>
-                <Button IsEnabled="True " Margin="10 2  10 2 " Content="Auto" x:Name="ShowAutoViewModel"/>
-                <Button IsEnabled="False" Margin="10 2  10 2 " Content="Investment"/>
-                <Button IsEnabled="False" Margin="10 2  10 2 " Content="Retirement"/>
-                <Button IsEnabled="False" Margin="10 2  10 2 " Content="Tax and Salary"/>
-                <Button IsEnabled="False" Margin="10 2  10 2 " Content="Other"/>
+                <Button IsEnabled="True " Margin="10 10 10 10" Content="Main" x:Name="ShowHomeViewModel"/>
+                <Button IsEnabled="True " Margin="10 2  10 2 " Content="Loan" x:Name="ShowLoanViewModel"/>
             </StackPanel>
         </DockPanel>
 
